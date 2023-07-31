@@ -1,0 +1,54 @@
+* {
+  font-family: arial, sans-serif;
+  margin: 0;
+}
+
+body,
+body > div {
+  height: 100vh;
+  width: 100vw;
+}
+
+#container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#container > div {
+  display: flex;
+}
+
+#navbar {
+  padding: 2em;
+  justify-content: space-evenly;
+}
+
+#main-section {
+  flex-grow: 1;
+}
+
+#main-section > div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home {
+  background-image: url("https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/11/red-vs-blue-references-in-halo-infinite.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.red {
+  background-color: rgb(110, 16, 16);
+  background-image: url("https://pbs.twimg.com/media/EudCBYSXAAQBRHz.jpg:large");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.blue {
+  background-color: #0c0c53;
+  background-image: url("https://cdna.artstation.com/p/assets/images/images/045/146/056/large/josh-gregory-elite-01.jpg?1642018814");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
